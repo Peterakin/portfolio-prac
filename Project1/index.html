@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>HTML || CSS</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="">About</a>
+        <a href="">Skills</a>
+        <a href="">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="me">
+          <p style="text-align: center; max-width: 600px; margin: auto">
+            Hello! My name is Peter, and i am a web developer, I love creating
+            interesting projects. The technologies i use are HTML, CSS,
+            JavaScript and React.
+          </p>
+          <img src="./images/me.jpg" alt="peter" />
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">React</div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter you name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Write your message"
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy: 2025 My Portfolio | Designed with HTML & CSS</p>
+    </footer>
+  </body>
+</html>

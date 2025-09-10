@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+#about {
+  background: #f4f4f4;
+}
+
+#skills {
+  background: #fff;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background: #f39c12;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #f39c12;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.me {
+  display: flex;
+}
+
+.me img {
+  width: 500px;
+  height: 600px;
+  margin-right: 80px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .me {
+    display: block;
+  }
+
+  .me img {
+    width: 450px;
+    height: 400px;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
